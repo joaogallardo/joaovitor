@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+   position: sticky;
+   top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #7fffd4,#65c2a2);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding-left: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color:#000;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/* intro */
+#intro
+{
+    background-image: linear-gradient(to right, #64fae6,#5ae0ce);
+    color: #000;
+    padding-top: 5%;
+    
+}
+.intro-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.intro-text
+{
+    font-size: 20px;
+}
+.hideri
+{
+    width: 100px;
+    margin: 20px;
+}
+.intro a
+{
+    color: #000;
+    text-decoration: none;
+}
+.img-fluid
+{
+    width: 100%;
+}
+
+/* Teorias */
+
+#teorias
+{
+    padding: 80px 0;
+}
+.teorias-img
+{
+    width: 300px;
+    margin-top: 20px;
+}
+.teoria
+{
+    padding: 20px;
+}
+.teoria h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.teoria p
+{
+    text-align: left;
+}
+.title::before
+{
+    content: '';
+    background-color: #5ae0ce;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background-color: #5ae0ce;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+/* termos */
+#termos
+{
+    padding: 80px 0;
+}
+.termo
+{
+    padding: 20px;
+}
+.termos h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.termos p
+{
+    text-align: left;
+}
+
+/* footer */
+
+#footer
+{
+    background-image: linear-gradient(to right, #64fae6,#5ae0ce);
+    color: #000;
+    font-size: 17px;
+}
+.footer-box
+{
+    text-align: left;
+    padding: 10px;
+}
+.felix
+{
+    width: 100px;
+    margin-bottom: 10px;
+}
+hr
+{
+    background-color: white;
+}
